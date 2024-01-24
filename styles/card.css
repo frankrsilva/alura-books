@@ -1,0 +1,67 @@
+.card {
+    border-radius: 10px;
+    background-color: var(--cor-secundaria);
+    padding: 2em 1.5em;
+    margin: 2em 5.5%;
+    display: flex;
+    gap: 2px;
+    justify-content: space-between;
+}
+
+.card__conteudo {
+    display: flex;
+    flex-direction: column;
+    gap: 4em;
+}
+
+.card__descricao {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.card__titulo {
+    color: var(--cor-destaque);
+    font-weight: 700;
+    font-size: 1.6rem;
+    line-height: 2rem;
+}
+
+.card__subtitulo {
+    color: var(--cor-destaque-secundaria);
+    font-size: 1.8rem;
+    font-weight: 700;
+    line-height: 2rem;
+}
+
+.card__paragrafo {
+    color: var(--cor-terciaria);
+    font-size: 1.4rem;
+    font-weight: 400;
+    line-height: 2rem;
+}
+
+.card__botao {
+    background-color: transparent;
+    border: none;
+}
+
+.card__conteudo__link {
+    color: var(--cor-secundaria);
+    background-color: var(--cor-destaque);
+    font-size: 1.6rem;
+    font-weight: 700;
+    text-align: center;
+    padding: 1em;
+}
+
+.card__estrelas {
+    width: 91px;
+}
+
+@media (min-width: 660px) {
+    .card {
+        width: 557px;
+        margin: 2em auto;
+    }
+}
